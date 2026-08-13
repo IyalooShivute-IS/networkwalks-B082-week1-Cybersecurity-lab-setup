@@ -1,7 +1,7 @@
 # networkwalks-B082-week1-Cybersecurity-lab-setup
 ## **Cybersecurity Lab Setup**
 
-Building an isolated virtual lab for penetration testing and ethical hacking practice.
+Creating an isolated virtual lab for penetration testing and ethical hacking practice.
 
 ## __Project Overview and Purpose__
 
@@ -55,9 +55,8 @@ _Extracting Kali-Linux files_
 The VM was allocated 2048 MB of RAM as per the below: 
 <img width="1260" height="897" alt="image" src="https://github.com/user-attachments/assets/63fb8d37-e293-4f72-97b2-d2bd8f2bf2ff" />
 <br><br>
-<img width="1740" height="772" alt="image" src="https://github.com/user-attachments/assets/4b25fd1f-09be-49d4-81b2-f4d5e723e3e1" />
-
-_The VM network adapter was configured as per the above_
+<img width="1740" height="772" alt="image" src="https://github.com/user-attachments/assets/4b25fd1f-09be-49d4-81b2-f4d5e723e3e1" />  
+_The VM network adapter was configured as per the above._
 
 ### Step 5. Setup the IP configuration of Kali Linux
 
@@ -107,7 +106,7 @@ sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 <br>
 
 ## 💡 What I Learned
-Through this project, I gained knowledge about setting up a virtual environment for cybersecurity practice 
+Through this project, I gained knowledge about setting up a virtual environment for cybersecurity practice. 
 
 _**The key concepts I learned amongst others, include:**_
 
