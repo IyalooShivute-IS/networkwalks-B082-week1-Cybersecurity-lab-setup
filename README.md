@@ -1,6 +1,16 @@
 # networkwalks-B082-week1-Cybersecurity-lab-setup
 Cybersecurity Lab Setup
-What is the purpose of this lab
+Building an isolated virtual lab for penetration testing and ethical hacking practice
+Project Overview and Purpose
+
+This project center on setting up a virtual cybersecurity and penetration-testing laboratory using VirtualBox and Kali Linux.
+
+The  key objective of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing tasks can be performed securely and repeatedly.
+
+In order to accommodate future additions of machines and their use as targets for authorized security testing, the lab is set up on a private virtual network.
+
+Lab Configurations
+<img width="437" height="762" alt="image" src="https://github.com/user-attachments/assets/7c7bd07b-5f7c-4265-8c67-f2a49750541e" />
 
 
 Steps i Followed:  
