@@ -140,14 +140,13 @@ This lab is solely meant to be used for educational reasons.
 
 ## 🔗 Tools & Resources
 
-**7-Zip:** https://7-zip.org/download.html
-**VirtualBox:** https://virtualbox.org/wiki/Downloads
-**Kali Linux:** https://kali.org/get-kali
+**7-Zip:** https://7-zip.org/download.html  
+**VirtualBox:** https://virtualbox.org/wiki/Downloads   
+**Kali Linux:** https://kali.org/get-kali    
 
 ## 👤 Author
 
-**Iyaloo Shivute**
-
+**Iyaloo Shivute**    
 Cybersecurity Intern B082
 
 LinkedIn:  www.linkedin.com/in/iyaloo-shivute
