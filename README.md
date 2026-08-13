@@ -1,7 +1,8 @@
 # networkwalks-B082-week1-Cybersecurity-lab-setup
 Cybersecurity Lab Setup
 
-Building an isolated virtual lab for penetration testing and ethical hacking practice
+Building an isolated virtual lab for penetration testing and ethical hacking practice.
+
 Project Overview and Purpose
 
 This project center on setting up a virtual cybersecurity and penetration-testing laboratory using VirtualBox and Kali Linux.
