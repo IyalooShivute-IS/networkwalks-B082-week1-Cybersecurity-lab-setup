@@ -119,9 +119,7 @@ I have learned how VirtualBox virtual network adapters connect virtual machines 
 
 A NAT network and a standard NAT configuration have distinct purposes.
 
-A NAT network provides network address translation for external connections while enabling communication between several virtual machines (VMs) connected to the same virtual network.
-
-Because of this, it can be used to create a multi-machine cybersecurity lab.
+A NAT network provides network address translation for external connections while enabling communication between several virtual machines (VMs) connected to the same virtual network.  Because of this, it can be used to create a multi-machine cybersecurity lab.
 
 **- Static IP Configuration**
 
