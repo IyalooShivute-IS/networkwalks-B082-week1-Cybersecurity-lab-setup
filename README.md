@@ -36,18 +36,30 @@ The VirtualBox was downloaded and installed as a Hypervisor.
 ### **Step 3:** **Create the NAT Network** 
 A dedicated NAT Network was created in VirtualBox as follows:
 
-**Configuration:** Network Name: _NatNetwork_ IPv4 Prefix: _10.0.0.0/24_ DHCP: _Enabled_ IPv6: _Disabled_
+**Configuration:** Network Name:  _NatNetwork_  IPv4 Prefix: _10.0.0.0/24_  DHCP: _Enabled_  IPv6: _Disabled_
 
 <img width="1912" height="1017" alt="image" src="https://github.com/user-attachments/assets/179fafa6-d554-44cf-8356-5dc32488d58e" />
 
-_The NAT Network was created as below:_
-Step 4. Download & import Kali Linux Virtual Machine in your Virtualbox: https://kali.org/get-kali
+A **NAT Network** was chosen because multiple virtual machines connected to the same NAT Network can communicate with each other while also having outbound network connectivity.
+
+This will enable communication between target virtual machines (VMs) and potential attackers within the lab.
+
+### Step 4. Download & import Kali Linux 
+The Kali-Linux virtual machine (vm) was downloaded from the official Kali Linux website and imported into the VirtualBox.
+
 <img width="717" height="601" alt="image" src="https://github.com/user-attachments/assets/41eddd6f-40e4-47d7-ba85-993a4017ac52" />
 
-Step 5. Setup the IP configuration of Kali Linux
-<img width="1740" height="772" alt="image" src="https://github.com/user-attachments/assets/4b25fd1f-09be-49d4-81b2-f4d5e723e3e1" />
+_Extracting Kali-Linux files_
 
-Step 6. Take snapshot of the VM
+### Step 5. Setup the IP configuration of Kali Linux
+<img width="1740" height="772" alt="image" src="https://github.com/user-attachments/assets/4b25fd1f-09be-49d4-81b2-f4d5e723e3e1" />
+_The VM network adapter was configured as per the above_
+
+The VM was allocated 2048 MB of RAM as per the below: 
+<img width="1260" height="897" alt="image" src="https://github.com/user-attachments/assets/63fb8d37-e293-4f72-97b2-d2bd8f2bf2ff" />
+
+
+### Step 6. Take snapshot of the VM
 <img width="1256" height="768" alt="image" src="https://github.com/user-attachments/assets/08fae74a-853e-478c-a94d-a59e612921e1" />
 
 Starting Kali-linux
