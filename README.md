@@ -134,3 +134,22 @@ This offers a known-good recovery point for prospective cybersecurity drills. 
 
 I have learned that documentation is a crucial component of a professional cybersecurity project, e.g. documenting commands, configurations, screenshots, issues, and fixes.
 
+## 🔐 Security & Ethical Use
+
+This lab is solely meant to be used for educational reasons.
+
+## 🔗 Tools & Resources
+
+**7-Zip:** https://7-zip.org/download.html
+**VirtualBox:** https://virtualbox.org/wiki/Downloads
+**Kali Linux:** https://kali.org/get-kali
+
+## 👤 Author
+
+**Iyaloo Shivute**
+Cybersecurity Intern B082
+
+LinkedIn:  www.linkedin.com/in/iyaloo-shivute
+
+## 📌 Project Information
+**Program Name**: Cybersecurity at Networkwalks | **Week**: 01 | **Project**: Cybersecurity & Pentesting Lab Setup | **Repository**: GitHub
