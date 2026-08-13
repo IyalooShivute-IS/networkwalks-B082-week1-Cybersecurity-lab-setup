@@ -103,3 +103,36 @@ sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 **Connectivity issues fixed/Internet restored**
 
 <img width="1265" height="801" alt="image" src="https://github.com/user-attachments/assets/09141419-258e-4da2-9560-a04a5c87cb43" />
+
+<br>
+
+## 💡 What I Learned
+Through this project, I gained knowledge about setting up a virtual environment for cybersecurity practice 
+
+_**The key concepts I learned amongst others, include:**_
+
+**- Virtual Machine Networking**
+
+I have learned how VirtualBox virtual network adapters connect virtual machines to various networks and how network setup influences machine-to-machine communication.
+
+**- NAT vs NAT Network**
+
+A NAT network and a standard NAT configuration have distinct purposes.
+
+A NAT network provides network address translation for external connections while enabling communication between several virtual machines (VMs) connected to the same virtual network.
+
+Because of this, it can be used to create a multi-machine cybersecurity lab.
+
+**- Static IP Configuration**
+
+I have learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
+
+**- VM Snapshots**
+
+I discovered that before engaging in risky or experimental behaviors, a clean snapshot should be taken.
+This offers a known-good recovery point for prospective cybersecurity drills. 
+
+**- Documentation**
+
+I have learned that documentation is a crucial component of a professional cybersecurity project, e.g. documenting commands, configurations, screenshots, issues, and fixes.
+
