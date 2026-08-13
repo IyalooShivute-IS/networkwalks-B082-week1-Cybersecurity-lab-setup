@@ -12,6 +12,7 @@ The  key objective of the lab is to create a controlled environment where cybers
 In order to accommodate future additions of machines and their use as targets for authorized security testing, the lab is set up on a private virtual network.
 
 Lab Configurations
+
 <img width="437" height="762" alt="image" src="https://github.com/user-attachments/assets/7c7bd07b-5f7c-4265-8c67-f2a49750541e" />
 
 
