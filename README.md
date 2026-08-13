@@ -3,7 +3,7 @@
 
 Creating an isolated virtual lab for penetration testing and ethical hacking practice. 
 
-In this lab, I will be able to practice hacking tools, scanning and malware testing without putting my actual computer or my home and work network at risk. 
+In this Lab, I will be able to practice hacking tools, scanning and malware testing without putting my actual computer or my home and work network at risk. 
 
 ## __Project Overview and Purpose__
 
