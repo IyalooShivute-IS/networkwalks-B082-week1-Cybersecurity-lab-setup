@@ -51,31 +51,55 @@ The Kali-Linux virtual machine (vm) was downloaded from the official Kali Linux 
 
 _Extracting Kali-Linux files_
 
-### Step 5. Setup the IP configuration of Kali Linux
-<img width="1740" height="772" alt="image" src="https://github.com/user-attachments/assets/4b25fd1f-09be-49d4-81b2-f4d5e723e3e1" />
-_The VM network adapter was configured as per the above_
 
 The VM was allocated 2048 MB of RAM as per the below: 
 <img width="1260" height="897" alt="image" src="https://github.com/user-attachments/assets/63fb8d37-e293-4f72-97b2-d2bd8f2bf2ff" />
+<br><br>
+<img width="1740" height="772" alt="image" src="https://github.com/user-attachments/assets/4b25fd1f-09be-49d4-81b2-f4d5e723e3e1" />
 
+_The VM network adapter was configured as per the above_
+
+### Step 5. Setup the IP configuration of Kali Linux
+
+The Kali Linux network configuration was checked and configured with a consistent IPv4 address as follows:
+
+<img width="1265" height="797" alt="image" src="https://github.com/user-attachments/assets/0af50d79-76d0-495f-b6c9-762a2f92cdf9" />
+
+_A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises._
 
 ### Step 6. Take snapshot of the VM
+
+A VirtualBox snapshot was made once the first setting was finished.  The snapshot depicts the laboratory's clean baseline.
+In the event that a subsequent exercise modifies or damages the virtual machine configuration, the machine can be restored to this baseline.
+
 <img width="1256" height="768" alt="image" src="https://github.com/user-attachments/assets/08fae74a-853e-478c-a94d-a59e612921e1" />
 
-Starting Kali-linux
+#### Starting Kali-linux
 <img width="1907" height="462" alt="image" src="https://github.com/user-attachments/assets/bb742060-3e94-4b4d-bad4-4a0f82407268" />
 
 
-Below are some of the challenges experience while setting up the lab.
-Internet Connectivity issues:
+## Below are some of the challenges experience while setting up the lab.
+#### Internet Connectivity Issues After Static IP Configuration
+
+Internet connectivity issues were experienced after manually configuring the IPv4 settings.
 <img width="916" height="693" alt="image" src="https://github.com/user-attachments/assets/d8087e3b-ab9e-4793-8a12-cf2da49abfb1" />
 <img width="1248" height="673" alt="image" src="https://github.com/user-attachments/assets/1f5d855f-d15a-4c69-8c11-44690ae17b9b" />
 
-How the Internet Connectivity issue was Fixed
-Step1: Resetting the Network Card 
+### How the Internet Connectivity issue was Fixed
+
+**Step 1: Resetting the Network Card**
+
 <img width="1270" height="902" alt="image" src="https://github.com/user-attachments/assets/5e99b5b3-c999-485a-987f-dd20470541b9" />
 
-Step2: Command used to fix the Internet connectivity issues
+<br><br>
+**Step 2: The below command was used to fix the Internet connectivity issues**
+
+sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
+
 <img width="1231" height="772" alt="image" src="https://github.com/user-attachments/assets/7779a7da-850c-435a-956a-8d4c6c5842df" />
-Connectivity issues fixed
+
+<br><br>
+
+**Connectivity issues fixed/Internet restored**
+
 <img width="1265" height="801" alt="image" src="https://github.com/user-attachments/assets/09141419-258e-4da2-9560-a04a5c87cb43" />
