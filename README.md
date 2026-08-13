@@ -1,9 +1,9 @@
 # networkwalks-B082-week1-Cybersecurity-lab-setup
-Cybersecurity Lab Setup
+**Cybersecurity Lab Setup**
 
 Building an isolated virtual lab for penetration testing and ethical hacking practice.
 
-Project Overview and Purpose
+__Project Overview and Purpose__
 
 This project center on setting up a virtual cybersecurity and penetration-testing laboratory using VirtualBox and Kali Linux.
 
@@ -11,12 +11,13 @@ The  key objective of the lab is to create a controlled environment where cybers
 
 In order to accommodate future additions of machines and their use as targets for authorized security testing, the lab is set up on a private virtual network.
 
-Lab Configurations
+__Lab Configurations__
 
 <img width="437" height="762" alt="image" src="https://github.com/user-attachments/assets/7c7bd07b-5f7c-4265-8c67-f2a49750541e" />
 
 
-Steps i Followed:  
+__Below are the Steps i Followed:__
+
 <img width="1172" height="276" alt="image" src="https://github.com/user-attachments/assets/a583c8ca-cc9b-4c6d-9c07-4a29ae74b7d9" />
 
 Step 1. Download & install 7-zip: https://7-zip.org/download.html
